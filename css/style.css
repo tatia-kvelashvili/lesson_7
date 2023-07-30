@@ -1,0 +1,111 @@
+/* main body */
+.main-box {
+    height: 1262px;
+    padding-top: 80px;
+}
+/* titles & text */
+.section-header {
+    height: 178px;
+    width: 1336px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.title1 {
+    color: #282828;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.title2 {
+    color: #282828;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.text-block1 {
+    width: 760px;
+    margin: 0 auto;
+}
+.text {
+    color: #5F6980;
+    font-size: 20px;
+    line-height: 35px;
+    width: 760px;
+    text-align: center;
+}
+/* cards boxes */
+.cards-container {
+    width: 1336px;
+    height: 908px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.boxes {
+    width: 310px;
+    height: 430px;
+    border: 1px solid;
+    border-color: #EAECF0;
+    background-color: #FFF;
+}
+.img-block {
+    margin-bottom: 16px;
+}
+.info {
+    width: 278px;
+    height: 108px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.name {
+    color: #282828;
+    font-size: 18px;
+    line-height: 30px;margin-bottom: 4px;
+}
+.job-title {
+    color: #3E3E59;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.job-describe {
+    color: #5F6980;
+    font-size: 14px;
+    line-height: 22px;
+}
+.social-icons {
+    width: 278px;
+    height: 36px;
+    margin: 0 auto;
+    display: flex;
+}
+.icon-boxes {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color:#F2F4F7;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer body */
+.footer-body {
+    height: 459px;
+    background-color: #535353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-main {
+    width: 1306px;
+    height: 223px;
+    background-color: lightcoral;
+}
+.footer-block1 {
+    
+}
