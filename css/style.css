@@ -11,6 +11,7 @@
     margin-bottom: 48px;
 }
 .title1 {
+    font-family: 'Inter-semibold';
     color: #282828;
     font-size: 16px;
     line-height: 26px;
@@ -18,6 +19,7 @@
     margin-bottom: 4px;
 }
 .title2 {
+    font-family: 'Inter-semibold';
     color: #282828;
     font-size: 54px;
     line-height: 62px;
@@ -26,13 +28,14 @@
 }
 .text-block1 {
     width: 760px;
+    height: 70px;
     margin: 0 auto;
 }
 .text {
+    font-family: 'Inter-regular';
     color: #5F6980;
     font-size: 20px;
     line-height: 35px;
-    width: 760px;
     text-align: center;
 }
 /* cards boxes */
@@ -62,17 +65,21 @@
     margin-bottom: 24px;
 }
 .name {
+    font-family: 'Inter-semibold';
     color: #282828;
     font-size: 18px;
-    line-height: 30px;margin-bottom: 4px;
+    line-height: 30px;
+    margin-bottom: 4px;
 }
 .job-title {
+    font-family: 'Inter-regular';
     color: #3E3E59;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 8px;
 }
 .job-describe {
+    font-family: 'Inter-regular';
     color: #5F6980;
     font-size: 14px;
     line-height: 22px;
@@ -96,7 +103,7 @@
 /* footer body */
 .footer-body {
     height: 459px;
-    background-color: #535353;
+    background-color: #c1c1c1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,8 +111,82 @@
 .footer-main {
     width: 1306px;
     height: 223px;
-    background-color: lightcoral;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
 .footer-block1 {
-    
+    width: 318.05px;
+    height: 221px;
+}
+.p-footer1 {
+    font-family: 'Inter-regular';
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-left: 12px;
+    margin-top: 31px;
+    margin-bottom: 28px;
+}
+.footer-icons {
+    width: 104px;
+    height: 24px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon-box {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-block2 {
+    width: 199px;
+    height: 223px;
+}
+.footer-title {
+    font-family: 'Inter-semibold';
+    font-size: 20px;
+    line-height: 24.2px;
+
+}
+.footer-ul {
+   margin-top: 71px;
+   display: flex;
+   flex-direction: column;
+}
+.footer-li {
+    font-family: 'Inter-regular';
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-bottom: 30px;
+}
+.footer-block3 {
+    width: 199px;
+    height: 223px;
+}
+.footer-block4 {
+    width: 107px;
+    height: 127.45px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-title4 {
+    font-family: 'Inter-semibold';
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 59.45px;
+}
+.eng-button {
+    width: 80px;
+    height: 45px;
+    background-color: #054A68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    font-family: 'Inter-regular';
+    color: #FFFFFF;
 }
